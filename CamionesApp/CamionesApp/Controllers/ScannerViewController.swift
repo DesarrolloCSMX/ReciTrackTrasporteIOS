@@ -100,6 +100,7 @@ extension ScannerViewController :  AVCaptureMetadataOutputObjectsDelegate{
             qrCodeFrame.frame = barCodeObject!.bounds
             
             
+            
             if metadataObject.stringValue == nil {
                 
                 print("Code value is == \(metadataObject.stringValue)")
